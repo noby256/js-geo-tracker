@@ -1,0 +1,9 @@
+__pycache__
+.idea
+include
+bin
+lib
+lib64
+virtual-env
+share
+.DS_Store
