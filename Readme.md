@@ -34,3 +34,12 @@ The backend additionally serves a REST API under
 GET http://localhost:8080/  
 The response is a list of drivers containing some profile information and
 geographical positions.
+
+# Result
+Client fetches every 5 sec drivers from server and renders them on svg map.
+Hovering over the dots that represent drivers shows a tooltip with all information 
+
+## Mercator projection
+![screen-gif](./mercator.gif)
+## orthographic projection
+![screen-gif](./orthographic.gif)
